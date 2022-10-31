@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E1E1E"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal"/>
+
+    <ImageView
+        android:layout_width="427dp"
+        android:layout_height="526dp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="0dp"
+        android:src="@drawable/Frame2" />
+
+    <TextView
+        android:id="@+id/coffe_so_go"
+        android:layout_width="375dp"
+        android:layout_height="147dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="26dp"
+        android:layout_marginLeft="26dp"
+        android:layout_marginTop="473dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="1sp"
+        android:text="@string/coffe_so_go"
+        android:textAppearance="@style/coffe_so_go"
+        android:translationY="-0.45sp" />
+
+    <TextView
+        android:id="@+id/the_best_gr"
+        android:layout_width="375dp"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="617dp"
+        android:gravity="center_horizontal|top"
+        android:lineSpacingExtra="2sp"
+        android:text="@string/the_best_gr"
+        android:textAppearance="@style/the_best_gr"
+        android:translationY="-1.18sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/button"
+        android:layout_width="268dp"
+        android:layout_height="60dp"
+        android:background="@drawable/ijo"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="80dp"
+        android:layout_marginTop="664dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="6dp"
+        android:text="Get Started"
+        android:textColorHint="#FFFFFF"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>

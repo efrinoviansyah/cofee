@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="coffe_so_go">
+
+        <item name="android:textSize">
+            35sp
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.01
+        </item>
+
+        <item name="android:textColor">
+            #FFFFFF
+        </item>
+
+    </style>
+    <string name="coffe_so_go">
+
+Coffe so good,\nyour taste buds\nwill love it.
+</string>
+    <style name="the_best_gr">
+
+        <item name="android:textSize">
+            14sp
+        </item>
+
+        <item name="android:letterSpacing">
+            -0.02
+        </item>
+
+        <item name="android:textColor">
+            #766565
+        </item>
+
+    </style>
+
+
+    <!-- strings.xml -->
+    <string name="the_best_gr">
+
+The best grain, the finest roast, the \npowerful flavor
+</string>
+</resources>
